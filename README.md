@@ -17,8 +17,11 @@ output: the fully processed files, with header and unwanted data removed.
 Additionally, this program requires a config file in order to work. The config will contain all wanted data, separated by newline. It will look something like the following:
 
 >config.txt
+
 >Temperature (K)
+
 >Magnetic Field (Oe)
+
 >Time (ms)
 
 This will remove anything from the data file other than Temperature, Field and Time. It looks for an exact match, so it is best to copy these directly from a dat file to avoid typos.
