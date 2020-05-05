@@ -1,6 +1,12 @@
 import sys
 import os
 
+if (len(sys.argv) == 1):
+    os.mkdir("ingest")
+    os.mkdir("output")
+    os.mkdir("cache")
+    sys.exit(0)
+
 config = open(sys.argv[1])
 
 keep = []
