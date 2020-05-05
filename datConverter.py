@@ -15,7 +15,10 @@ config.close()
 print("\n")
 
 for filename in os.listdir("ingest"):
-    infile = open("ingest/"+filename)
+    os.rename("ingest/"+filename, "cache/"+filename)
+
+for filename in os.listdir("cache"):
+    infile = open("cache/"+filename)
     outfile = open("output/new."+filename, "w+")
 
     data = []
