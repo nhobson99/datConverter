@@ -13,7 +13,7 @@ keep = []
 
 for line in config:
     if (len(line) > 1):
-        keep.append(line.strip())
+        keep.append(line.split('#')[0].strip())
         print(keep[-1])
 
 config.close()
