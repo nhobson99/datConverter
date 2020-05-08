@@ -16,7 +16,7 @@ If run with no command line arguments, `python3 datConverter.py` will create the
 
 Additionally, this program requires a config file in order to work. The config will contain all wanted data, separated by newline. It will look something like the following:
 
->config.txt
+<b>config.txt</b>
 >
 >Temperature (K)
 >
