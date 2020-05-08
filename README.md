@@ -14,6 +14,8 @@ This app is made to strip off unwanted attributes from .dat files formatted as C
 
 If run with no command line arguments, `python3 datConverter.py` will create the needed subdirectories and exit.
 
+<h3>Config File</h3>
+
 Additionally, this program requires a config file in order to work. The config will contain all wanted data, separated by newline. It will look something like the following:
 
 <b>config.txt</b>
