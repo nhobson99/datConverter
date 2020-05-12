@@ -1,4 +1,6 @@
 # comments don't affect the usage of the config file and are a good way to increase readability
 Temperature (K)
 Magnetic Field (Oe)
+Map 15
 Moment (emu)
+Map 16
