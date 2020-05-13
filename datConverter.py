@@ -37,6 +37,8 @@ for filename in os.listdir("ingest"):
     names = []      # the names of every column header in this file
 
     for line in infile:
+        if (len(line) <= 1):
+            continue
         # we want everything after the header, starting the line after [Data]
         if (line == "[Data]\n"):
             start = 1
